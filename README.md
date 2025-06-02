@@ -16,7 +16,7 @@ error, we capped this variable at 1 to keep the values consistent and interpreta
 Finally, we engineered new variables to improve model performance, including a log transformation of MonthlyIncome (creating MonthlyIncome_log) and the capped version of DebtRatio (DebtRatio_capped). These 
 adjustments helped stabilize variance, reduce the impact of outliers, and prepare the data for reliable model training.
 
-## About the model 
+## About the Models 
 
 To predict which clients are likely to default, we implemented three different machine learning models. We started with logistic regression as a benchmark due to its simplicity and interpretability, and then 
 introduced two tree-based models, Random Forest and XGBoost, to capture potential non-linear relationships and improve predictive performance.
