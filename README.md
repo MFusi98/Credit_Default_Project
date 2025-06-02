@@ -4,7 +4,7 @@ This project aims to predict whether a client will default on credit payments us
 
 ## About the Data 
 
-The dataset, available on Kaggle, consists of 150000 observations and 12 features related to clients’ financial profiles, including income, age, debt usage, and historical payment behavior.
+The dataset, available on [Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit/data), consists of 150000 observations and 12 features related to clients’ financial profiles, including income, age, debt usage, and historical payment behavior.
 
 Before training the models, we carried out a comprehensive preprocessing phase. We addressed missing values, particularly in the MonthlyIncome and NumberOfDependents variables. For income, we adopted a strategy 
 based on age groups: we created an AgeGroup variable that divides the population into four bands (18–30, 31–45, 46–65, and 65+), and then used the median income within each group to fill the missing values. 
